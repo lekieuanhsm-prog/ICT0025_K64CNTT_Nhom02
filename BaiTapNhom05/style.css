@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f1f5f9; color: #050013; margin: 0; padding: 24px; }
+.container { max-width: 880px; margin: auto; }
+.header { background: #1ed48e; color: #fff; padding: 14px 20px; border-radius: 8px; margin-bottom: 18px; }
+.header h2 { margin: 0; font-size: 18px; }
+.header p { margin: 4px 0 0; font-size: 13px; color: #bfdbfe; }
+.card { background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 18px 20px; margin-bottom: 18px; }
+.card.editing { border: 2px solid #d97706; background: #fffbeb; }
+.card h3 { margin-top: 0; padding-bottom: 8px; border-bottom: 1px solid #e2e8f0; font-size: 16px; color: #0f172a; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+label { display: block; font-weight: 600; font-size: 13.5px; margin-bottom: 4px; }
+input[type="text"], select { width: 100%; padding: 8px 10px; border: 1px solid #cbd5e1; border-radius: 5px; font-size: 14px; background: #fff; }
+.btn { display: inline-block; margin-top: 12px; padding: 8px 16px; background: #e08413; color: #fff; border: none; border-radius: 5px; font-weight: 600; cursor: pointer; text-decoration: none; font-size: 13.5px; }
+.btn:hover { background: #d6e816; }
+.btn-warn { background: #d97706; }
+.btn-warn:hover { background: #b45309; }
+.btn-sec { background: #64748b; }
+.btn-sec:hover { background: #475569; }
+.btn-sm { margin-top: 0; padding: 4px 10px; font-size: 12.5px; }
+.btn-del { background: #dc2626; }
+.btn-del:hover { background: #b91c1c; }
+.alert-err { background: #fee2e2; color: #b91c1c; padding: 10px 14px; border-radius: 5px; margin-bottom: 14px; border: 1px solid #fecaca; }
+.alert-ok { background: #dcfce7; color: #15803d; padding: 10px 14px; border-radius: 5px; margin-bottom: 14px; border: 1px solid #bbf7d0; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { border: 1px solid #cbd5e1; padding: 9px 10px; text-align: left; }
+th { background: #f8fafc; }
+.badge { background: #dbeafe; color: #0f7678; padding: 2px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; }
